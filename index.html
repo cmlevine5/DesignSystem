@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="navbar">
+            <header><h1>Pattern Library</h1></header>
+            <a class="nav-link" href="#Heading_Styles">Heading Styles</a>
+            <a class="nav-link" href="#Paragraph_Text_Styles">Paragraph Text Styles</a>
+            <a class="nav-link" href="#Buttons">Buttons</a>
+            <a class="nav-link" href="#Media_Objects">Media Objects</a>
+            <a class="nav-link" href="#Lists">Lists</a>
+            <a class="nav-link" href="#Images">Images</a>
+        </nav>
+        <main id="main-doc" class="content">
+            <section id="Heading_Styles" class="main-section">
+                <header><h2>Heading Styles</h2></header>
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                    <br>
+                    <p>H1 Styling Example Code</p>
+                    <pre><code>
+ h1 {
+    font-family: var(--headingfont);
+    font-size: 3em;
+    color: var(--primary);
+    font-weight: bold;
+    margin: 0;
+ }
+                    </code></pre>
+            </section>
+
+            <section id="Paragraph_Text_Styles" class="main-section">
+                <header><h2>Paragraph Text Styles</h2></header>
+                <p>Example Standard Paragraph Text</p>
+                <p>Example <span class="bold">Bold</span> Paragraph Text</p>
+                <p>Example <span class="emphasized">Emphasized</span> Paragraph Text</p>
+                <p>Example <span class="strikeout">Strikeout</span> Paragraph Text</p>
+                <p>Example <span class="highlighted">Highlighted</span> Paragraph Text</p>
+                <p>Example <span class="underlined">Underlined</span> Paragraph Text</p>
+                <br>
+                <p>Bold Paragraph Text Styling Example Code</p>
+                <pre><code>
+ .bold {
+    font-weight: 900;
+ }
+                </code></pre>
+            </section>
+
+            <section id="Buttons" class="main-section">
+                <header><h2>Buttons</h2></header>
+
+                <p>Default Button</p>
+                <div class="button">Click Here</div>
+
+                <p>Accent Button</p>
+                <div class="button accent-btn">Click Here</div>
+
+                <p>Outline Button</p>
+                <div class="button outline-btn">Click Here</div>
+
+                <p>Greyed Out Button</p>
+                <div class="button grey-btn">Click Here</div>
+
+                <p>Small Button</p>
+                <div class="button small-btn">Click Here</div>
+
+                <p>Large Button</p>
+                <div class="button large-btn">Click Here</div>
+                <br>
+                <p>Button Styling Example Code</p>
+                <pre><code>
+ .button {
+    padding: 0.25rem 0.75rem;
+    background-color: var(--primary);
+    color: var(--offwhite);
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 2px solid var(--black);
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+ }
+                </code></pre>
+
+            </section>
+
+            <section id="Media_Objects" class="main-section">
+                <header><h2>Media Objects</h2></header>
+            </section>
+
+            <section id="Lists" class="main-section">
+                <header><h2>Lists</h2></header>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </section>
+
+            <section id="Images" class="main-section">
+                <header><h2>Images</h2></header>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
